@@ -1,16 +1,38 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CShaprOOPS
+namespace CSharpOOPS
 {
+    public class Bank
+    {
+        private double balance;
+        public double Balance
+        {
+            get
+            {
+                return balance;
+            }
+            set
+            {
+                // validate the value
+                if (value < 0)
+                {
+                    Console.WriteLine("value cannot be negative");
+                }
+                balance = value;
+            }
+        }
+    }
     class Encapsulation
     {
-        static void Main()
+        public static void Main()
         {
-            Console.ReadLine();           
+            Bank SBI = new Bank();
+            SBI.Balance = 100;
+            Console.WriteLine(SBI.Balance);
+            SBI.Balance = -50;
+            Console.WriteLine(SBI.Balance);
+            Console.WriteLine("Press any key to exist.");
+            Console.ReadKey();
         }
     }
 }
