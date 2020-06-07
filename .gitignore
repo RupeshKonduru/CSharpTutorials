@@ -4,3 +4,9 @@
 
 /CShaprOOPS/bin/Debug
 /CShaprOOPS/obj/Debug
+/LogicalPrograms/obj
+/DesignPatterns/obj
+/DesignPatterns/bin/Debug/netcoreapp3.1
+/DataStructures/obj
+/DataStructures/bin/Debug/netcoreapp3.1
+/Algorithms/obj
