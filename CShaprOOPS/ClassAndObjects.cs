@@ -22,6 +22,7 @@ namespace CShaprOOPS
             Console.WriteLine("This is object call for ClassAndObjectsMethod");
         }
 
+        //Static Method does'nt require object for invocation
         public static void ClassAndObjectsMethod2()
         {
             Console.WriteLine("This is static ClassAndObjectsMethod");
