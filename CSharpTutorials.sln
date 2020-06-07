@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Algorithms", "Algorithms\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.DataStructures", "DataStructures\5.DataStructures.csproj", "{DA9E7688-B58A-4D11-99B3-97F133FCEAE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Miscellaneous", "6.Miscellaneous\6.Miscellaneous.csproj", "{876DD4E1-6B45-4DFC-B8F9-B3F8DFA941E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DA9E7688-B58A-4D11-99B3-97F133FCEAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA9E7688-B58A-4D11-99B3-97F133FCEAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA9E7688-B58A-4D11-99B3-97F133FCEAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876DD4E1-6B45-4DFC-B8F9-B3F8DFA941E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876DD4E1-6B45-4DFC-B8F9-B3F8DFA941E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876DD4E1-6B45-4DFC-B8F9-B3F8DFA941E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876DD4E1-6B45-4DFC-B8F9-B3F8DFA941E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
