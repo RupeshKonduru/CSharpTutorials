@@ -46,8 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClassAndObjects.cs" />
+    <Compile Include="1.ClassAndObjects.cs" />
     <Compile Include="New Keyword.cs" />
+    <Compile Include="2.Constructors.cs" />
+    <Compile Include="3.Destructors.cs" />
+    <Compile Include="4.AccessSpecifiers.cs" />
+    <Compile Include="5.Encapsulation.cs" />
+    <Compile Include="6.Abstraction.cs" />
+    <Compile Include="7.Inheritance.cs" />
+    <Compile Include="8.MultipleInheritance.cs" />
+    <Compile Include="9.AbstractClassAndAbstractMethod.cs" />
+    <Compile Include="10.Polymorphism.cs" />
+    <Compile Include="11.Function Overloading.cs" />
+    <Compile Include="8.Interface.cs" />
+    <Compile Include="12.Function Overridding.cs" />
+    <Compile Include="13.FunctionHiding.cs" />
+    <Compile Include="14.PartialCLass.cs" />
+    <Compile Include="15.SealedClassAndSealedMethod.cs" />
+    <Compile Include="16.ExtensionMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
