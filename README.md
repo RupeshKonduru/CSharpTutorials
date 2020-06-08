@@ -3,11 +3,11 @@
 This is about important  CSharpConcepts
 
 
-1. CSharp OOPS Concepts
+**1. CSharp OOPS Concepts**
 2. CSharp Design Patterns
 3. Csharp Logical Progerams
 4. Csharp Algorithms
-5. Csharp Data Structures**
+**5. Csharp Data Structures**
 
 If you want to run a particular concept ,set that project as statup (**Project=>Right Click and choose Set as startup Project**)
 
