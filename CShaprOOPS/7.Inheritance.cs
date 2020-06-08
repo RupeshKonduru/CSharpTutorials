@@ -28,7 +28,7 @@ namespace CShaprOOPS
             Console.WriteLine("BRANCH ADDRESS IS : " + BranchAddress);
         }
     }
-    class Employee : Inheritance
+    class Inhertiances : Inheritance
     {
         int EmployeeId, EmployeeAge;
         string EmployeeName, EmployeeAddress;
@@ -53,7 +53,7 @@ namespace CShaprOOPS
         }
         static void Main(string[] args)
         {
-            Employee obj1 = new Employee();
+            Inhertiances obj1 = new Inhertiances();
             obj1.GetBranchData();
             obj1.GetEmployeeData();
             obj1.DisplayBranchData();

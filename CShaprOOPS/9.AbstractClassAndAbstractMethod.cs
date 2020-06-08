@@ -23,7 +23,7 @@ namespace CShaprOOPS
             rate = 5.00;
         }
     }
-    class DomesticlPlan : AbstractClassAndAbstractMethod
+    class AbstractClass : AbstractClassAndAbstractMethod
     {
         public override void getRate()
         {
@@ -37,7 +37,7 @@ namespace CShaprOOPS
             p.getRate();
             p.calculation(250);
             Console.WriteLine("DOMESTIC CONNECTION");
-            p = new DomesticlPlan();
+            p = new AbstractClass();
             p.getRate();
             p.calculation(150);
             Console.ReadKey();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CShaprOOPS
 {
-    class FunctionOverloading
+    class FunctionOverload
     {
         public void add(int a, int b)
         {
@@ -18,7 +18,7 @@ namespace CShaprOOPS
         }
     }
     //Inheritance Overloading
-    class ADD2 : FunctionOverloading
+    class FunctionOverloading : FunctionOverload
     {
         public void add(string s1, string s2)
         {
@@ -26,7 +26,7 @@ namespace CShaprOOPS
         }
         static void Main(string[] args)
         {
-            ADD2 obj = new ADD2();
+            FunctionOverloading obj = new FunctionOverloading();
             obj.add(10, 20);
             obj.add(10.5f, 20.5f);
             obj.add("pranaya", "kumar");
