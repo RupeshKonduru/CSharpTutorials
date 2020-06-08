@@ -64,6 +64,7 @@
     <Compile Include="14.PartialCLass.cs" />
     <Compile Include="15.SealedClassAndSealedMethod.cs" />
     <Compile Include="16.ExtensionMethod.cs" />
+    <Compile Include="9.AbstractMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
