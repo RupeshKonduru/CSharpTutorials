@@ -1,18 +1,15 @@
 # CSharpTutorials
-This is about complete CSharpTutorials
-```html
-<li>
-<ol>
-<h3>CSharp OOPS Concepts</h3>
-<h3>CSharp Design Patterns</h3>
-<h3>Csharp Logical Progerams</h3>
-<h3>Csharp Algorithms</h3>
-<h3>Csharp Data Structures</h3>
-</ol>
-</li>
-<p>If you want to tun a particular concept ,set that project as statup (Project=>Right Click and choose Set as startup Project)</p>
-<p>If you want to run particular class file then change the Startup Object in the properties of project(Project=>Right click properties=>Startup Object dropdown change the class you want to run)</p>
 
-```
+This is about complete CSharpTutorials
+
+1.CSharp OOPS Concepts
+2.CSharp Design Patterns
+3.Csharp Logical Progerams
+4.Csharp Algorithms
+5.Csharp Data Structures
+
+If you want to tun a particular concept ,set that project as statup (Project=>Right Click and choose Set as startup Project)
+If you want to run particular class file then change the Startup Object in the properties of project(Project=>Right click properties=>Startup Object dropdown change the class you want to run)
+
 
 
