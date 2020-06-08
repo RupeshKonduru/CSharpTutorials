@@ -1,6 +1,6 @@
 # CSharpTutorials
 
-This is about complete CSharpTutorials
+This is about important  CSharpConcepts
 
 
 1. CSharp OOPS Concepts
