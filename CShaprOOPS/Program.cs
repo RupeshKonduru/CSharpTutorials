@@ -10,7 +10,7 @@ namespace CShaprOOPS
     {
         static void Main()
         {
-            Console.ReadLine();           
+            Console.ReadLine();
         }
     }
 }

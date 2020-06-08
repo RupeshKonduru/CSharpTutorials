@@ -29,9 +29,6 @@ namespace CShaprOOPS
         {
             rate = 2.50;
         }
-    }
-    class Program
-    {
         static void Main(string[] args)
         {
             AbstractClassAndAbstractMethod p;
@@ -46,5 +43,4 @@ namespace CShaprOOPS
             Console.ReadKey();
         }
     }
-   
 }

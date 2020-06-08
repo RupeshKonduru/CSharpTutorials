@@ -8,9 +8,23 @@ namespace CShaprOOPS
 {
     class FunctionHiding
     {
-        static void Main()
+        public void display()
         {
-            Console.ReadLine();           
+            Console.WriteLine("Super class display method");
         }
     }
+    class ClassChild : FunctionHiding
+    {
+        public new void display()
+        {
+            Console.WriteLine("Sub class display method");
+        }
+        static void Main(string[] args)
+        {
+            ClassChild obj = new ClassChild();
+            obj.display();
+            Console.ReadKey();
+        }
+    }
+   
 }

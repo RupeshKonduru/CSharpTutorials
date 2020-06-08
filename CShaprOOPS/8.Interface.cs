@@ -35,9 +35,6 @@ namespace CSharpOOPS
         {
             Console.WriteLine("Show mwthod of interafce2 is implemented");
         }
-    }
-    class Program
-    {
         static void Main(string[] args)
         {
             Interface obj = new Interface();
