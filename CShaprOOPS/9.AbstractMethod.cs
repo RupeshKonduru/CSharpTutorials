@@ -4,8 +4,8 @@ namespace CShaprOOPS
 {
     abstract class AbstractMethod
     {
-        protected int EmpId, EAge;
-        protected string EName, EAddress;
+        protected int EmpId, EAge=0;
+        protected string EName, EAddress="";
         public abstract void GetEmpData();
         public virtual void DisplayEmpData()
         {

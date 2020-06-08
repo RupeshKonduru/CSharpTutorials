@@ -53,11 +53,13 @@ namespace CShaprOOPS
         }
         public void Display()
         {
+            Console.WriteLine("Employee address is:  " + j);
             Console.WriteLine();
             Console.WriteLine("Employee id is:  " + this.eid);
             Console.WriteLine("Employee name is:  " + this.name);
             Console.WriteLine("Employee age is:  " + this.age);
             Console.WriteLine("Employee address is:  " + this.address);
+
         }
         
     }
