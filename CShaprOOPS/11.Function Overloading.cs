@@ -17,7 +17,7 @@ namespace CShaprOOPS
             Console.WriteLine(x + y);
         }
     }
-    //Inheritance Overloading
+    //Inheritance Overloading example
     class FunctionOverloading : FunctionOverload
     {
         public void add(string s1, string s2)
