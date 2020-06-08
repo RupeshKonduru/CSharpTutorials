@@ -13,7 +13,7 @@ namespace CShaprOOPS
             Console.WriteLine("Super class display method");
         }
     }
-    class ClassChild : FunctionHiding
+    class FunctionHide: FunctionHiding
     {
         public new void display()
         {
@@ -21,7 +21,7 @@ namespace CShaprOOPS
         }
         static void Main(string[] args)
         {
-            ClassChild obj = new ClassChild();
+            FunctionHide obj = new FunctionHide();
             obj.display();
             Console.ReadKey();
         }

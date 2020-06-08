@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpOOPS.Encapsulation</StartupObject>
+    <StartupObject>CShaprOOPS.Abstraction</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

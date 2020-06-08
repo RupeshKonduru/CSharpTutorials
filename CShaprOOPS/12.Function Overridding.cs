@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace CShaprOOPS
 {
-    class FunctionOverridding
+    class FunctionOverrid
     {
         public virtual void show()
         {
             Console.WriteLine("Super class show method");
         }
     }
-    class Class2 : FunctionOverridding
+    class FunctionOverridding : FunctionOverrid
     {
         public override void show()
         {
@@ -23,7 +23,7 @@ namespace CShaprOOPS
         }
         static void Main(string[] args)
         {
-            Class2 obj = new Class2();
+            FunctionOverridding obj = new FunctionOverridding();
             obj.show();
             Console.ReadKey();
         }
