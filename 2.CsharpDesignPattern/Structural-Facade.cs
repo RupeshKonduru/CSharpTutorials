@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2.CsharpDesignPattern
+namespace CsharpDesignPattern
 {
     class Structural_Facade
     {
@@ -43,15 +43,16 @@ namespace _2.CsharpDesignPattern
                 Console.WriteLine("Order Placed Successfully");
             }
         }
-        class FacadeDesignPattern
+        
+    }
+    class FacadeDesignPattern
+    {
+        static void Main(string[] args)
         {
-            static void Main(string[] args)
-            {
-                Order order = new Order();
-                order.PlaceOrder();
-                Console.Read();
-            }
+            Structural_Facade.Order order = new Structural_Facade.Order();
+            order.PlaceOrder();
+            Console.Read();
         }
     }
-    
+
 }

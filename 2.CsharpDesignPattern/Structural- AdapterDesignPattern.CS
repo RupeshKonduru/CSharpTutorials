@@ -25,7 +25,7 @@ namespace CsharpDesignPattern
         public class ThirdPartyBillingSystem
         {
             //ThirdPartyBillingSystem accepts employees information as a List to process each employee salary
-            public void ProcessSalary(List<Employee> listEmployee)
+            public static void ProcessSalary(List<Employee> listEmployee)
             {
                 foreach (Employee employee in listEmployee)
                 {
@@ -73,7 +73,7 @@ namespace CsharpDesignPattern
                 }
                 Console.WriteLine("Adapter converted Array of Employee to List of Employee");
                 Console.WriteLine("Then delegate to the ThirdPartyBillingSystem for processing the employee salary\n");
-                thirdPartyBillingSystem.ProcessSalary(listEmployee);
+                ThirdPartyBillingSystem.ProcessSalary(listEmployee);
             }
         }
         class Adapter

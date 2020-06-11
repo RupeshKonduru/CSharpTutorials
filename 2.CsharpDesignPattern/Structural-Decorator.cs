@@ -68,7 +68,7 @@ namespace CsharpDesignPattern
                 }
             }
         }
-        class PetrolCarDecorator : CarDecorator
+        public class PetrolCarDecorator : CarDecorator
         {
             public PetrolCarDecorator(ICar car) : base(car)
             {
@@ -90,21 +90,22 @@ namespace CsharpDesignPattern
             }
         }
 
-        class Decorator
+        
+    }
+    class DecoratorPattern
+    {
+        static void Main(string[] args)
         {
-            static void Main(string[] args)
-            {
-                ICar bmwCar1 = new BMWCar();
-                bmwCar1.ManufactureCar();
-                Console.WriteLine(bmwCar1 + "\n");
-                DieselCarDecorator carWithDieselEngine = new DieselCarDecorator(bmwCar1);
-                carWithDieselEngine.ManufactureCar();
-                Console.WriteLine();
-                ICar bmwCar2 = new BMWCar();
-                PetrolCarDecorator carWithPetrolEngine = new PetrolCarDecorator(bmwCar2);
-                carWithPetrolEngine.ManufactureCar();
-                Console.ReadKey();
-            }
+            Structural_Decorator.ICar bmwCar1 = new Structural_Decorator.BMWCar();
+            bmwCar1.ManufactureCar();
+            Console.WriteLine(bmwCar1 + "\n");
+            Structural_Decorator.DieselCarDecorator carWithDieselEngine = new Structural_Decorator.DieselCarDecorator(bmwCar1);
+            carWithDieselEngine.ManufactureCar();
+            Console.WriteLine();
+            Structural_Decorator.ICar bmwCar2 = new Structural_Decorator.BMWCar();
+            Structural_Decorator.PetrolCarDecorator carWithPetrolEngine = new Structural_Decorator.PetrolCarDecorator(bmwCar2);
+            carWithPetrolEngine.ManufactureCar();
+            Console.ReadKey();
         }
     }
 }
