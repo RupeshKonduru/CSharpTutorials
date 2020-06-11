@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _4.CSharpAlgorithms
+namespace CSharpAlgorithms
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-        }
+        //static void Main(string[] args)
+        //{
+        //}
     }
 }

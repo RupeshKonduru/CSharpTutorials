@@ -24,6 +24,13 @@ namespace CSharpAlgorithms
             }
             return fbString;
         }
-        //Console.WriteLine(FizzBuzz.GetFizzBuzz());
+        
+     }
+    class FizzBuzzs
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(FizzBuzz.GetFizzBuzz());
+        }
     }
 }

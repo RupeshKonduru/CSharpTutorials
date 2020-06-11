@@ -4,10 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _4.CSharpAlgorithms
+namespace CSharpAlgorithms
 {
-    class SwapMinMax
-    {
         //Write a method to swap the min and max element in an integer array
         //Source: Cracking Coding Interview p. 58
         public static class MinMaxArraySwap
@@ -52,6 +50,21 @@ namespace _4.CSharpAlgorithms
                 x[min] = x[max];
                 x[max] = temp;
             }
+        
+    }
+    class SwapMinAndMax
+    {
+        static void Main(string[] args)
+        {
+            int[] arr = new int[5];
+            arr[0] = 1;
+            arr[1] = 4;
+            arr[2] = 6;
+            arr[3] = 3;
+
+            MinMaxArraySwap.MinMaxSwap(arr);
         }
     }
+        
+    
 }

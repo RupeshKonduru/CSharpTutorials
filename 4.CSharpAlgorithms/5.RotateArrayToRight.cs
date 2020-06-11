@@ -40,5 +40,18 @@ namespace CSharpAlgorithms
             }
             return x;
         }
+       
+    }
+    class RotateGivenArryTORightWay
+    {
+        static void Main(string[] args)
+        {
+            int[] arr = new int[5];
+            arr[0] = 1;
+            arr[1] = 4;
+            arr[2] = 6;
+            arr[3] = 3;
+            RotateArrayToRight.Rotate(arr, 4);
+        }
     }
 }

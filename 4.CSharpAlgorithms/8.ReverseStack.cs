@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,6 +22,19 @@ namespace CSharpAlgorithms
                 temp.Push(input.Pop());
 
             return temp;
+        }
+        
+    }
+    class ReverseAStack
+    {
+        static void Main()
+        {
+            Stack stack = new Stack();
+            stack.Push(1);
+            stack.Push(8);
+            stack.Push(2);
+
+            ReverseStack.Reverse(stack);
         }
     }
 }

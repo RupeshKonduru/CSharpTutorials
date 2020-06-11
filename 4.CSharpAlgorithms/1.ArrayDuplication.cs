@@ -22,5 +22,17 @@ namespace CSharpAlgorithms
             }
             return false;
         }
+
+        
     }
+    class ArrayDuplications
+    {
+        public static void Main(string[] args)
+        {
+            ArrayDuplication.ContainsDuplicates(1, 2, 3, 4, 5, 5, 5, 6, 6);
+        }
+
+    }
+
+
 }

@@ -63,6 +63,10 @@ namespace CSharpAlgorithms
             }
         }
 
+        
+    }
+    class BinarySearchTreeInsert
+    {
         static void Main()
         {
             BinarySearchTree nums = new BinarySearchTree();

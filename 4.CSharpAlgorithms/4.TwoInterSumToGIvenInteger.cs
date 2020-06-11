@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _4.CSharpAlgorithms
+namespace CSharpAlgorithms
 {
-    class TwoInterSumToGIvenInteger
-    {
-        public static class TargetSum
+        public static class TwoInterSumToGIvenInteger
         {
             //Brute force solution, O(n^2) time complexity
             public static bool TwoIntegersSumToTarget(int[] arr, int target)
@@ -27,6 +25,19 @@ namespace _4.CSharpAlgorithms
                 }
                 return false;
             }
+        
+    }
+    class TwoIntegersSumToGivenTargets
+    {
+        static void Main(string[] args)
+        {
+            int[] arr = new int[5];
+            arr[0] = 1;
+            arr[1] = 4;
+            arr[2] = 6;
+            arr[3] = 3;
+            TwoInterSumToGIvenInteger.TwoIntegersSumToTarget(arr, 4);
         }
     }
+        
 }
