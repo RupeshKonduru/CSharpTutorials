@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace CsharpDesignPattern
 {
-    //class Program
-    //{
-    //    static void Main(string[] args)
-    //    {
-    //    }
-    //}
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        }
+    }
 }

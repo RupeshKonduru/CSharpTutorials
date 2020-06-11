@@ -45,12 +45,15 @@
   <ItemGroup>
     <Compile Include="3.MovingZeroTOEndOfArray.cs" />
     <Compile Include="1.ArrayDuplication.cs" />
-    <Compile Include="NumberOfWaysTOReachFloor.cs" />
+    <Compile Include="7.FizzBizz.cs" />
+    <Compile Include="9.InsertNodeInBinaryTree.cs" />
+    <Compile Include="6.NumberOfWaysTOReachFloor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="2.SwapMinMax.cs" />
     <Compile Include="5.RotateArrayToRight.cs" />
     <Compile Include="4.TwoInterSumToGIvenInteger.cs" />
+    <Compile Include="8.ReverseStack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
