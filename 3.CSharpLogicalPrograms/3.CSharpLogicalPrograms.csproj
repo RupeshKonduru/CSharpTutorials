@@ -46,17 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="10.BinaryTODecimal.cs" />
     <Compile Include="4.ArmStrongNumber.cs" />
     <Compile Include="2.Fibonacci.cs" />
     <Compile Include="6.Polindrome.cs" />
     <Compile Include="3.PrimeNumber.cs" />
     <Compile Include="9.DecimalTOBinary.cs" />
     <Compile Include="7.Factorial.cs" />
+    <Compile Include="11.CharacterOccurance.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="1.ReverseNumber.cs" />
     <Compile Include="5.SwappingNumbers.cs" />
     <Compile Include="8.SumOfDigits.cs" />
+    <Compile Include="12.ReverseString.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

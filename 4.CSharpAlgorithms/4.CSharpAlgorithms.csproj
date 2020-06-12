@@ -51,12 +51,15 @@
     <Compile Include="7.FizzBizz.cs" />
     <Compile Include="9.InsertNodeInBinaryTree.cs" />
     <Compile Include="6.NumberOfWaysTOReachFloor.cs" />
+    <Compile Include="12.ConvertBinartStringTOInteger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="2.SwapMinMax.cs" />
     <Compile Include="5.RotateArrayToRight.cs" />
     <Compile Include="4.TwoInterSumToGIvenInteger.cs" />
     <Compile Include="8.ReverseStack.cs" />
+    <Compile Include="10.ReverseAnArray.cs" />
+    <Compile Include="SortArrayInDescendingOrder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
