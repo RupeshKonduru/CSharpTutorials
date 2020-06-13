@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.CSharpOOPS", "CShaprOOPS\1.CSharpOOPS.csproj", "{88D744DD-2AFC-413F-8A5D-C71D598E1FC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.CSharpOOPS", "1.CShaprOOPS\1.CSharpOOPS.csproj", "{88D744DD-2AFC-413F-8A5D-C71D598E1FC8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.CsharpDesignPattern", "2.CsharpDesignPattern\2.CsharpDesignPattern.csproj", "{0E3E2584-8F9F-4F6A-89FE-81696D4C9278}"
 EndProject
@@ -13,11 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.CSharpAlgorithms", "4.CSh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.CSharpDataStructures", "5.CSharpDataStructures\5.CSharpDataStructures.csproj", "{8ECF7DC7-A5EB-4462-BC32-5DEAD1E707F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.RepositoryPatternWeb", "RepositoryPatternWeb\8.RepositoryPatternWeb.csproj", "{62835497-CFA0-45F7-92E7-682EBDD9452C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.RepositoryPatternWeb", "8.RepositoryPatternWeb\8.RepositoryPatternWeb.csproj", "{62835497-CFA0-45F7-92E7-682EBDD9452C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.CSharpAdvanced", "CSharpAdvanced\6.CSharpAdvanced.csproj", "{F1790007-50D9-40EC-9515-7826E09D0F2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.CSharpAdvanced", "6.CSharpAdvanced\6.CSharpAdvanced.csproj", "{F1790007-50D9-40EC-9515-7826E09D0F2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.Miscelleneaous", "Miscelleneaous\7.Miscelleneaous.csproj", "{931E7328-DC48-4B8F-B645-ADD90C68B18E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.Miscelleneaous", "7.Miscelleneaous\7.Miscelleneaous.csproj", "{931E7328-DC48-4B8F-B645-ADD90C68B18E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
