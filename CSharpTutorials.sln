@@ -13,9 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.CSharpAlgorithms", "4.CSh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.CSharpDataStructures", "5.CSharpDataStructures\5.CSharpDataStructures.csproj", "{8ECF7DC7-A5EB-4462-BC32-5DEAD1E707F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Miscellaneous", "5.Miscellaneous\6.Miscellaneous.csproj", "{B73EB2BD-5FA9-49B5-AD52-47E6367530B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.Miscellaneous", "5.Miscellaneous\7.Miscellaneous.csproj", "{B73EB2BD-5FA9-49B5-AD52-47E6367530B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternWeb", "RepositoryPatternWeb\RepositoryPatternWeb.csproj", "{62835497-CFA0-45F7-92E7-682EBDD9452C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.RepositoryPatternWeb", "RepositoryPatternWeb\8.RepositoryPatternWeb.csproj", "{62835497-CFA0-45F7-92E7-682EBDD9452C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.CSharpAdvanced", "C:\Users\Rupesh\Downloads\Advanced-Algorithms-master\Advanced-Algorithms-master\src\Advanced.Algorithms\6.CSharpAdvanced.csproj", "{CE9A686D-6126-45D0-B71B-F5D65B7DC227}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{62835497-CFA0-45F7-92E7-682EBDD9452C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62835497-CFA0-45F7-92E7-682EBDD9452C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62835497-CFA0-45F7-92E7-682EBDD9452C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE9A686D-6126-45D0-B71B-F5D65B7DC227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9A686D-6126-45D0-B71B-F5D65B7DC227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9A686D-6126-45D0-B71B-F5D65B7DC227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9A686D-6126-45D0-B71B-F5D65B7DC227}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
