@@ -54,12 +54,20 @@
     <Compile Include="9.DecimalTOBinary.cs" />
     <Compile Include="7.Factorial.cs" />
     <Compile Include="11.CharacterOccurance.cs" />
+    <Compile Include="14.PossibleSubString.cs" />
+    <Compile Include="18.ConvertOneDimenToTwoDimensArray.cs" />
+    <Compile Include="19.ConvertTwoDimenToOneDimensArray.cs" />
+    <Compile Include="20.FindAngleInClockHoursAndMinuteHand.cs" />
+    <Compile Include="16.LeftCircularRotationArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="1.ReverseNumber.cs" />
     <Compile Include="5.SwappingNumbers.cs" />
     <Compile Include="8.SumOfDigits.cs" />
     <Compile Include="12.ReverseString.cs" />
+    <Compile Include="13.RemoveDuplicateCharacterFromString.cs" />
+    <Compile Include="15.ReverseEachWordInSentence.cs" />
+    <Compile Include="17.RightCircularROtationInArray.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
