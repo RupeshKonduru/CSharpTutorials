@@ -1,4 +1,5 @@
 ﻿using RepositoryPatternWeb.DataAccess;
+using RepositoryPatternWeb.GenericRepository;
 using RepositoryPatternWeb.Repository;
 using System;
 using System.Collections.Generic;
@@ -18,27 +19,122 @@ Delete(int EmployeeId): Delete Employee view submits the data to this action met
 */
 namespace RepositoryPatternWeb.Controllers
 {
+    ///
+    /// Calling the Non Generic Repository
+    ///
+    //public class EmployeeController : Controller
+    //{
+    //    private IEmployeeRepository _employeeRepository;
+    //    public EmployeeController()
+    //    {
+    //        _employeeRepository = new EmployeeRepository(new EmployeeDBEntities());
+    //    }
+    //    public EmployeeController(IEmployeeRepository employeeRepository)
+    //    {
+    //        _employeeRepository = employeeRepository;
+    //    }
+    //    [HttpGet]
+    //    public ActionResult Index()
+    //    {
+    //        var model = _employeeRepository.GetAll();
+    //        return View(model);
+    //    }
+    //    [HttpGet]
+    //    public ActionResult Details(int EmployeeID)
+    //    {
+    //        var model = _employeeRepository.GetAll().Where(x => x.EmployeeID == EmployeeID).FirstOrDefault(); ;
+    //        return View(model);
+    //    }
+    //    [HttpGet]
+    //    public ActionResult AddEmployee()
+    //    {
+    //        return View();
+    //    }
+    //    [HttpPost]
+    //    public ActionResult AddEmployee(Employee model)
+    //    {
+    //        if (ModelState.IsValid)
+    //        {
+    //            _employeeRepository.Insert(model);
+    //            _employeeRepository.Save();
+    //            return RedirectToAction("Index", "Employee");
+    //        }
+    //        return View();
+    //    }
+    //    [HttpGet]
+    //    public ActionResult EditEmployee(int EmployeeID)
+    //    {
+    //        Employee model = _employeeRepository.GetById(EmployeeID);
+    //        return View(model);
+    //    }
+    //    [HttpPost]
+    //    public ActionResult EditEmployee(Employee model)
+    //    {
+    //        if (ModelState.IsValid)
+    //        {
+    //            _employeeRepository.Update(model);
+    //            _employeeRepository.Save();
+    //            return RedirectToAction("Index", "Employee");
+    //        }
+    //        else
+    //        {
+    //            return View(model);
+    //        }
+    //    }
+    //    [HttpGet]
+    //    public ActionResult DeleteEmployee(int EmployeeID)
+    //    {
+    //        Employee model = _employeeRepository.GetById(EmployeeID);
+    //        return View(model);
+    //    }
+    //    [HttpPost]
+    //    public ActionResult Delete(int EmployeeID)
+    //    {
+    //        _employeeRepository.Delete(EmployeeID);
+    //        _employeeRepository.Save();
+    //        return RedirectToAction("Index", "Employee");
+    //    }
+    //}
+
+    /// <summary>
+    /// Calling the Generaic Repository and Non Genericfree
+    /// </summary>
     public class EmployeeController : Controller
     {
-        private IEmployeeRepository _employeeRepository;
+        private IGenericRepository<Employee> repository = null;
+        private IEmployeeRepository employee_repository = null;
         public EmployeeController()
         {
-            _employeeRepository = new EmployeeRepository(new EmployeeDBEntities());
+            employee_repository = new EmployeeRepository();
+            repository = new GenericRepository<Employee>();
         }
-        public EmployeeController(IEmployeeRepository employeeRepository)
-        {
-            _employeeRepository = employeeRepository;
-        }
+        //public EmployeeController(EmployeeRepository repository)
+        //{
+        //    employee_repository = repository;
+        //}
+        //public EmployeeController(IGenericRepository<Employee> repository)
+        //{
+        //    this.repository = repository;
+        //}
+
         [HttpGet]
         public ActionResult Index()
         {
-            var model = _employeeRepository.GetAll();
+            //you can not access the below two mwthods using generic repository
+            //var model = repository.GetEmployeesByDepartment("IT");
+            var model = employee_repository.GetEmployeesByGender("Male");
             return View(model);
         }
+        //[HttpGet]
+        //public ActionResult Index()
+        //{
+        //    var model = repository.GetAll();
+        //    return View(model);
+        //}
         [HttpGet]
         public ActionResult Details(int EmployeeID)
         {
-            var model = _employeeRepository.GetAll().Where(x => x.EmployeeID == EmployeeID).FirstOrDefault(); ;
+            var model = repository.GetAll().Where(x => x.EmployeeID == EmployeeID).FirstOrDefault(); ;
             return View(model);
         }
         [HttpGet]
@@ -51,16 +147,16 @@ namespace RepositoryPatternWeb.Controllers
         {
             if (ModelState.IsValid)
             {
-                _employeeRepository.Insert(model);
-                _employeeRepository.Save();
+                repository.Insert(model);
+                repository.Save();
                 return RedirectToAction("Index", "Employee");
             }
             return View();
         }
         [HttpGet]
-        public ActionResult EditEmployee(int EmployeeID)
+        public ActionResult EditEmployee(int EmployeeId)
         {
-            Employee model = _employeeRepository.GetById(EmployeeID);
+            Employee model = repository.GetById(EmployeeId);
             return View(model);
         }
         [HttpPost]
@@ -68,8 +164,8 @@ namespace RepositoryPatternWeb.Controllers
         {
             if (ModelState.IsValid)
             {
-                _employeeRepository.Update(model);
-                _employeeRepository.Save();
+                repository.Update(model);
+                repository.Save();
                 return RedirectToAction("Index", "Employee");
             }
             else
@@ -78,16 +174,16 @@ namespace RepositoryPatternWeb.Controllers
             }
         }
         [HttpGet]
-        public ActionResult DeleteEmployee(int EmployeeID)
+        public ActionResult DeleteEmployee(int EmployeeId)
         {
-            Employee model = _employeeRepository.GetById(EmployeeID);
+            Employee model = repository.GetById(EmployeeId);
             return View(model);
         }
         [HttpPost]
         public ActionResult Delete(int EmployeeID)
         {
-            _employeeRepository.Delete(EmployeeID);
-            _employeeRepository.Save();
+            repository.Delete(EmployeeID);
+            repository.Save();
             return RedirectToAction("Index", "Employee");
         }
     }

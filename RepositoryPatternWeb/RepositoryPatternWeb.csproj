@@ -156,6 +156,8 @@
       <DependentUpon>EmployeeDBModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="FluentMigrator\FluentMigrator.cs" />
+    <Compile Include="GenericRepository\GenericRepository.cs" />
+    <Compile Include="GenericRepository\IGenerticRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
