@@ -370,7 +370,7 @@ namespace Advanced.Algorithms.DataStructures.Graph.AdjacencyMatrix
             return graph;
         }
 
-        private class WeightedGraphVertex<T, TW> : IGraphVertex<T> where TW : IComparable
+        private class WeightedGraphVertex<U, TWD> : IGraphVertex<T> where TWD : IComparable
         {
             WeightedGraph<T, TW> graph;
             private int vertexIndex;

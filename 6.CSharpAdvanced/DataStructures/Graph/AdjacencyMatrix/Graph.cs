@@ -378,7 +378,7 @@ namespace Advanced.Algorithms.DataStructures.Graph.AdjacencyMatrix
             return graph;
         }
 
-        private class GraphVertex<T> : IGraphVertex<T>
+        private class GraphVertex<U> : IGraphVertex<T>
         {
             Graph<T> graph;
             private int vertexIndex;

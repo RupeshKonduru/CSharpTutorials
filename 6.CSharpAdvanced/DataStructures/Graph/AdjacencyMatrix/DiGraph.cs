@@ -430,7 +430,7 @@ namespace Advanced.Algorithms.DataStructures.Graph.AdjacencyMatrix
             return graph;
         }
 
-        private class DiGraphVertex<T> : IDiGraphVertex<T>, IGraphVertex<T>
+        private class DiGraphVertex<U> : IDiGraphVertex<T>, IGraphVertex<T>
         {
             DiGraph<T> graph;
             private int vertexIndex;

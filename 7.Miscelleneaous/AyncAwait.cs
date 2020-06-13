@@ -46,7 +46,7 @@ namespace Miscellaneous
             AsyncAwait asv = new AsyncAwait();
             asv.WriteOutput("Program Begin");
             // DoAsTask();
-            asv.DoAsAsync();
+            _ = asv.DoAsAsync();
             asv.WriteOutput("Program End");
             Console.ReadLine();
         }

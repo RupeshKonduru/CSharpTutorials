@@ -16,7 +16,7 @@ namespace Miscellaneous
             //task.Wait();
 
 
-            Method1();
+            _ = Method1();
             Method2();
             Console.ReadLine();
         }

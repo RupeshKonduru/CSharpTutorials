@@ -415,7 +415,7 @@ namespace Advanced.Algorithms.DataStructures.Graph.AdjacencyMatrix
             return graph;
         }
 
-        private class WeightedDiGraphVertex<T, TW> : IDiGraphVertex<T>, IGraphVertex<T> where TW : IComparable
+        private class WeightedDiGraphVertex<U, TWD> : IDiGraphVertex<T>, IGraphVertex<T> where TWD : IComparable
         {
             WeightedDiGraph<T, TW> graph;
             private int vertexIndex;
