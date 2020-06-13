@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0E3E2584-8F9F-4F6A-89FE-81696D4C9278}</ProjectGuid>
+    <ProjectGuid>{B73EB2BD-5FA9-49B5-AD52-47E6367530B8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_2.CsharpDesignPattern</RootNamespace>
-    <AssemblyName>2.CsharpDesignPattern</AssemblyName>
+    <RootNamespace>_5.Miscellaneous</RootNamespace>
+    <AssemblyName>5.Miscellaneous</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CsharpDesignPattern.ChainOfResponsiblity</StartupObject>
+    <StartupObject>Miscellaneous.AsyncAwait</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,21 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Behavioural-Iterator.cs" />
-    <Compile Include="Behavioural-ChainOfRespo.cs" />
-    <Compile Include="Behavioural-ChainOfResponRealTIme.cs" />
-    <Compile Include="Creational-AbstractFactoryPattern.cs" />
-    <Compile Include="Creational-FactoryMethodPattern.cs" />
-    <Compile Include="Creational-FactoryPattern.cs" />
-    <Compile Include="Behavioural-Observer.cs" />
+    <Compile Include="Async.cs" />
+    <Compile Include="AyncAwait.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Structural- AdapterDesignPattern.CS" />
-    <Compile Include="Structural-Decorator.cs" />
-    <Compile Include="Structural-Facade.cs" />
+    <Compile Include="StaticConstructorDemo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
