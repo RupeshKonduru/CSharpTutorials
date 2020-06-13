@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.Miscellaneous", "5.Miscel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.RepositoryPatternWeb", "RepositoryPatternWeb\8.RepositoryPatternWeb.csproj", "{62835497-CFA0-45F7-92E7-682EBDD9452C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.CSharpAdvanced", "C:\Users\Rupesh\Downloads\Advanced-Algorithms-master\Advanced-Algorithms-master\src\Advanced.Algorithms\6.CSharpAdvanced.csproj", "{CE9A686D-6126-45D0-B71B-F5D65B7DC227}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.CSharpAdvanced", "CSharpAdvanced\6.CSharpAdvanced.csproj", "{F1790007-50D9-40EC-9515-7826E09D0F2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +53,10 @@ Global
 		{62835497-CFA0-45F7-92E7-682EBDD9452C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62835497-CFA0-45F7-92E7-682EBDD9452C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62835497-CFA0-45F7-92E7-682EBDD9452C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CE9A686D-6126-45D0-B71B-F5D65B7DC227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE9A686D-6126-45D0-B71B-F5D65B7DC227}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE9A686D-6126-45D0-B71B-F5D65B7DC227}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE9A686D-6126-45D0-B71B-F5D65B7DC227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1790007-50D9-40EC-9515-7826E09D0F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1790007-50D9-40EC-9515-7826E09D0F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1790007-50D9-40EC-9515-7826E09D0F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1790007-50D9-40EC-9515-7826E09D0F2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
