@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0E3E2584-8F9F-4F6A-89FE-81696D4C9278}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_2.CsharpDesignPattern</RootNamespace>
-    <AssemblyName>2.CsharpDesignPattern</AssemblyName>
+    <RootNamespace>CsharpDesignPattern</RootNamespace>
+    <AssemblyName>CsharpDesignPattern</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

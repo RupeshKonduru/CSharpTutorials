@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2D1078CF-376A-4AF2-962E-804BD2D37F63}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_3.CSharpLogicalPrograms</RootNamespace>
-    <AssemblyName>3.CSharpLogicalPrograms</AssemblyName>
+    <RootNamespace>CSharpLogicalPrograms</RootNamespace>
+    <AssemblyName>CSharpLogicalPrograms</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

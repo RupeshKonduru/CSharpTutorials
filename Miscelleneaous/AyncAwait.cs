@@ -41,7 +41,7 @@ namespace Miscellaneous
         {
             Console.WriteLine("[{0}] {1}", Thread.CurrentThread.ManagedThreadId, message);
         }
-        public static void Main()
+        static void Main()
         {
             AsyncAwait asv = new AsyncAwait();
             asv.WriteOutput("Program Begin");
