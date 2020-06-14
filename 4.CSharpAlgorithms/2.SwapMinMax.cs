@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CSharpAlgorithms
 {
         //Write a method to swap the min and max element in an integer array
-        //Source: Cracking Coding Interview p. 58
+        //Source: Cracking Coding Interview  p. 58
         public static class MinMaxArraySwap
         {
             public static void MinMaxSwap(int[] input)
