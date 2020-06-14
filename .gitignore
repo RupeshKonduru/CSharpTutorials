@@ -28,6 +28,7 @@
 *.suo
 /.vs/config/applicationhost.config
 /.vs/CSharpTutorials/config/applicationhost.config
+/.vs/CSharpTutorials/v16
 /packages/EntityFramework.6.2.0/lib
 /packages/Antlr.3.5.0.2/lib
 /packages/Antlr.3.5.0.2
@@ -52,3 +53,5 @@
 /7.Miscelleneaous/obj/Debug
 /8.RepositoryPatternWeb/bin
 /8.RepositoryPatternWeb/obj
+/7.Miscelleneaous/obj/Release
+/$tf
