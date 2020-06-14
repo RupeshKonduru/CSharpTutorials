@@ -59,6 +59,11 @@
     <Compile Include="19.CircularLinkedList.cs" />
     <Compile Include="21.DeleteNthNodeFromLinkedList.cs" />
     <Compile Include="20.DetedctACycleInLinkedList.cs" />
+    <Compile Include="AllPossibelStrings.cs" />
+    <Compile Include="25.BitCount.cs" />
+    <Compile Include="23.FibonanaciSeries.cs" />
+    <Compile Include="22.FindingNthElementLinkedList.cs" />
+    <Compile Include="26.PreComputedBitCount.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="2.SwapMinMax.cs" />
@@ -69,6 +74,7 @@
     <Compile Include="11.SortArrayInDescendingOrder.cs" />
     <Compile Include="15.RemoveDuplicateFromSortedLinkedList.cs" />
     <Compile Include="17.ReverseLinkedList.cs" />
+    <Compile Include="24.RemoveDuplicateFromString.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

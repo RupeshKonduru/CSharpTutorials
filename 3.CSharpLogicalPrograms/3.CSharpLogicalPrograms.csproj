@@ -59,6 +59,10 @@
     <Compile Include="19.ConvertTwoDimenToOneDimensArray.cs" />
     <Compile Include="20.FindAngleInClockHoursAndMinuteHand.cs" />
     <Compile Include="16.LeftCircularRotationArray.cs" />
+    <Compile Include="23.NestedSwitch.cs" />
+    <Compile Include="21.OverloadBinaryOperator.cs" />
+    <Compile Include="22.OverLoadUnaryOperator.cs" />
+    <Compile Include="24.PrintWeekDay.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="1.ReverseNumber.cs" />
