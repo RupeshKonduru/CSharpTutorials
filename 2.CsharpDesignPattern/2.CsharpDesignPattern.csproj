@@ -46,22 +46,45 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioural-CommandPattern.cs" />
+    <Compile Include="Behavioural-Intepreter.cs" />
     <Compile Include="Behavioural-Iterator.cs" />
     <Compile Include="Behavioural-ChainOfRespo.cs" />
     <Compile Include="Behavioural-ChainOfResponRealTIme.cs" />
+    <Compile Include="Behavioural-Mediator.cs" />
+    <Compile Include="Behavioural-MementoDesignPattern.cs" />
+    <Compile Include="Behavioural-StatePattern.cs" />
+    <Compile Include="Behavioural-StateRealTime.cs" />
+    <Compile Include="Behavioural-StrategyPattern.cs" />
+    <Compile Include="Behavioural-StrategyRealPayment.cs" />
+    <Compile Include="Behavioural-StrategyRealTime.cs" />
+    <Compile Include="Behavioural-VisitorPattern.cs" />
     <Compile Include="Creational-AbstractFactoryPattern.cs" />
     <Compile Include="Creational-Builder.cs" />
     <Compile Include="Creational-BuilderRealExample.cs" />
     <Compile Include="Creational-FactoryMethodPattern.cs" />
     <Compile Include="Creational-FactoryPattern.cs" />
     <Compile Include="Behavioural-Observer.cs" />
+    <Compile Include="Creational-FluentPattern.cs" />
+    <Compile Include="Creational-Prototype.cs" />
+    <Compile Include="Creational-Singleton.cs" />
+    <Compile Include="Creational-SingletonEagerLoading.cs" />
+    <Compile Include="Creational-SingletonLazyLoading.cs" />
+    <Compile Include="Creational-SingletonThreadSafe.cs" />
+    <Compile Include="Creational-SingletonVsStaticClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structural- AdapterDesignPattern.CS" />
     <Compile Include="Structural-BridgeDesignPattern.cs" />
     <Compile Include="Structural-BridgePatternRealExample.cs" />
+    <Compile Include="Structural-CompositePattern.cs" />
     <Compile Include="Structural-Decorator.cs" />
     <Compile Include="Structural-Facade.cs" />
+    <Compile Include="Structural-Flyweight.cs" />
+    <Compile Include="Structural-ProxyPatten.cs" />
+    <Compile Include="Structural-ProxyRealTime.cs" />
+    <Compile Include="BehaviouralTemplateMethodPattern.cs" />
+    <Compile Include="BehaviouralTemplatePattern.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

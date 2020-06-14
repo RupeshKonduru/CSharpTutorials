@@ -1,10 +1,8 @@
 ﻿using RepositoryPatternWeb.DataAccess;
 using RepositoryPatternWeb.GenericRepository;
+using RepositoryPatternWeb.Logs;
 using RepositoryPatternWeb.Repository;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 /*
  * Below methods are added
@@ -101,6 +99,7 @@ namespace RepositoryPatternWeb.Controllers
     /// </summary>
     public class EmployeeController : Controller
     {
+        private ILog _ILog;
         private IGenericRepository<Employee> repository = null;
         private IEmployeeRepository employee_repository = null;
         public EmployeeController()
@@ -108,14 +107,22 @@ namespace RepositoryPatternWeb.Controllers
             employee_repository = new EmployeeRepository();
             repository = new GenericRepository<Employee>();
         }
-        //public EmployeeController(EmployeeRepository repository)
-        //{
-        //    employee_repository = repository;
-        //}
-        //public EmployeeController(IGenericRepository<Employee> repository)
-        //{
-        //    this.repository = repository;
-        //}
+        public EmployeeController(EmployeeRepository repository)
+        {
+            employee_repository = repository;
+            _ILog = Log.GetInstance;
+        }
+        public EmployeeController(IGenericRepository<Employee> repository)
+        {
+            this.repository = repository;
+        }
+        
+        protected override void OnException(ExceptionContext filterContext)
+        {
+            _ILog.LogException(filterContext.Exception.ToString());
+            filterContext.ExceptionHandled = true;
+            this.View("Error").ExecuteResult(this.ControllerContext);
+        }
 
         [HttpGet]
         public ActionResult Index()
