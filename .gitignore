@@ -55,3 +55,8 @@
 /8.RepositoryPatternWeb/obj
 /7.Miscelleneaous/obj/Release
 /$tf
+/RepositoryPattern.Tests.UnitTest/obj
+/RepositoryPattern.Tests.UnitTest/bin/Debug/netcoreapp3.1
+/RepositoryPatternWebAPI/bin/Debug/netcoreapp3.1
+/RepositoryPatternWebAPI/obj/Debug/netcoreapp3.1
+/RepositoryPatternWebAPI/obj

@@ -1,16 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace DesignPatterns
+namespace CsharpDesignPattern
 {
-    public interface CreditCard
+    //Step1: Create the Product Interface
+    public interface ICreditCard
     {
         string GetCardType();
         int GetCreditLimit();
         int GetAnnualCharge();
     }
-    class MoneyBack : CreditCard
+
+    //Step2: Creating Product classes MoneyBack,Titanium,Platinum
+    class MoneyBack : ICreditCard
     {
         public string GetCardType()
         {
@@ -25,7 +26,7 @@ namespace DesignPatterns
             return 500;
         }
     }
-    public class Titanium : CreditCard
+    public class Titanium : ICreditCard
     {
         public string GetCardType()
         {
@@ -40,7 +41,7 @@ namespace DesignPatterns
             return 1500;
         }
     }
-    public class Platinum : CreditCard
+    public class Platinum : ICreditCard
     {
         public string GetCardType()
         {
@@ -55,12 +56,12 @@ namespace DesignPatterns
             return 2000;
         }
     }
-    /*Solution BLock Start*/
+    /*Solution Block Start*/
     class CreditCardFactoryPattern
     {
-        public static CreditCard GetCreditCard(string cardType)
+        public static ICreditCard GetCreditCard(string cardType)
         {
-            CreditCard cardDetails = null;
+            ICreditCard cardDetails = null;
             if (cardType == "MoneyBack")
             {
                 cardDetails = new MoneyBack();
@@ -76,17 +77,18 @@ namespace DesignPatterns
             return cardDetails;
         }
     }
-    /*Solution BLock End*/
+    /*Solution Block End*/
 
-    class FactoryPattern
+    //Step3: Client Code
+    public class FactoryPattern
     {
         static void Main(string[] args)
         {
-            /*Problem */
+            /*Problem - Usual Program execution */
             //Generally we will get the Card Type from UI.
             //Here we are hardcoded the card type
             string cardType = "MoneyBack";
-            CreditCard cardDetails = null;
+            ICreditCard cardDetails = null;
             //Based of the CreditCard Type we are creating the
             //appropriate type instance using if else condition
             if (cardType == "MoneyBack")
@@ -101,11 +103,20 @@ namespace DesignPatterns
             {
                 cardDetails = new Platinum();
             }
-            //Problem End here
+            if (cardDetails != null)
+            {
+                Console.WriteLine("CardType : " + cardDetails.GetCardType());
+                Console.WriteLine("CreditLimit : " + cardDetails.GetCreditLimit());
+                Console.WriteLine("AnnualCharge :" + cardDetails.GetAnnualCharge());
+            }
+            else
+            {
+                Console.Write("Invalid Card Type");
+            }
+            /*Problem End here*/
 
-            /*Solution*/
-            CreditCard cardDetailsSolution = CreditCardFactoryPattern.GetCreditCard("Platinum");
-            /* SOlution End Here*/
+            /*Solution - Implementing Factory pattern*/
+            ICreditCard cardDetailsSolution = CreditCardFactoryPattern.GetCreditCard("Platinum");
 
             if (cardDetails != null)
             {
@@ -117,6 +128,8 @@ namespace DesignPatterns
             {
                 Console.Write("Invalid Card Type");
             }
+            /* Solution End Here*/
+
             Console.ReadLine();
         }
     }

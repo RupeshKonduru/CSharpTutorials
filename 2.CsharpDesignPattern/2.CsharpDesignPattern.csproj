@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CsharpDesignPattern.ChainOfResponsiblity</StartupObject>
+    <StartupObject>CsharpDesignPattern.FactoryPattern</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

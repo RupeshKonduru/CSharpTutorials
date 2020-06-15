@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns
+namespace CsharpDesignPattern
 {
     public abstract class CreditCardFactoryMethod
     {
-        protected abstract CreditCard MakeProduct();
-        public CreditCard CreateProduct()
+        protected abstract ICreditCard MakeProduct();
+        public ICreditCard CreateProduct()
         {
             return this.MakeProduct();
         }
@@ -15,25 +15,25 @@ namespace DesignPatterns
 
     public class MoneyBackFactory : CreditCardFactoryMethod
     {
-        protected override CreditCard MakeProduct()
+        protected override ICreditCard MakeProduct()
         {
-            CreditCard product = new MoneyBack();
+            ICreditCard product = new MoneyBack();
             return product;
         }
     }
     public class PlatinumFactory : CreditCardFactoryMethod
     {
-        protected override CreditCard MakeProduct()
+        protected override ICreditCard MakeProduct()
         {
-            CreditCard product = new Platinum();
+            ICreditCard product = new Platinum();
             return product;
         }
     }
     public class TitaniumFactory : CreditCardFactoryMethod
     {
-        protected override CreditCard MakeProduct()
+        protected override ICreditCard MakeProduct()
         {
-            CreditCard product = new Titanium();
+            ICreditCard product = new Titanium();
             return product;
         }
     }

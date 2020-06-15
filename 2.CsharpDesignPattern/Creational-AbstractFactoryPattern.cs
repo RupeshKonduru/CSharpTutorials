@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns
+namespace CsharpDesignPattern
 {
     public interface Animal
     {

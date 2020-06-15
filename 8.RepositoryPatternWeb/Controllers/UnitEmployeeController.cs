@@ -58,6 +58,7 @@ namespace RepositoryPatternWeb.Controllers
             catch (Exception ex)
             {
                 //Log the exception and rollback the transaction
+                var msg=ex.Message;
                 unitOfWork.Rollback();
             }
             return View();
