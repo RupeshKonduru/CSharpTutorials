@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpAlgorithms.Sorting_SelectionSort</StartupObject>
+    <StartupObject>CSharpAlgorithms.BinarySearchTreeInsert</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -76,7 +76,15 @@
     <Compile Include="17.ReverseLinkedList.cs" />
     <Compile Include="24.RemoveDuplicateFromString.cs" />
     <Compile Include="Sorting-2.InsertionSort.cs" />
-    <Compile Include="Sorting-1.Selection.cs" />
+    <Compile Include="Sorting-1.SelectionSort.cs" />
+    <Compile Include="Sorting-3.HeapSort.cs" />
+    <Compile Include="Sorting-5.QuickSort.cs" />
+    <Compile Include="Sorting-7.ShellSort.cs" />
+    <Compile Include="Sorting-RadixSort.cs" />
+    <Compile Include="Sorting-9.BucketSort.cs" />
+    <Compile Include="Sorting-8.CombSort.cs" />
+    <Compile Include="Sorting-6.BubbleSort.cs" />
+    <Compile Include="Sorting-4.MergeSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
