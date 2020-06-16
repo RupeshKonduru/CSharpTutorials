@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CsharpDesignPattern.FactoryPattern</StartupObject>
+    <StartupObject>CsharpDesignPattern.BuilderDesignPattern</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

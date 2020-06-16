@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpAlgorithms.ArrayDuplications</StartupObject>
+    <StartupObject>CSharpAlgorithms.Sorting_SelectionSort</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -75,6 +75,8 @@
     <Compile Include="15.RemoveDuplicateFromSortedLinkedList.cs" />
     <Compile Include="17.ReverseLinkedList.cs" />
     <Compile Include="24.RemoveDuplicateFromString.cs" />
+    <Compile Include="Sorting-2.InsertionSort.cs" />
+    <Compile Include="Sorting-1.Selection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
