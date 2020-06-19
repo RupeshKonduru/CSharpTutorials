@@ -21,7 +21,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.Miscelleneaous", "7.Misce
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryPattern.Tests.UnitTest", "RepositoryPattern.Tests.UnitTest\RepositoryPattern.Tests.UnitTest.csproj", "{B9CCBE24-5D21-425D-A5A1-CE96D581D51F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.RepositoryPatternWebAPI", "RepositoryPatternWebAPI\9.RepositoryPatternWebAPI.csproj", "{807DE953-FB2E-4A31-AC4B-D65FC0942740}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9.RepositoryPatternWebAPI", "RepositoryPatternWebAPI\9.RepositoryPatternWebAPI.csproj", "{807DE953-FB2E-4A31-AC4B-D65FC0942740}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{15C93478-1FFC-4DAB-B085-59E1A7E9C210}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Preparation Docs\CSharpTutorials - OOPS,Design Patterns,Algoand DataStructure.xlsx = ..\..\Preparation Docs\CSharpTutorials - OOPS,Design Patterns,Algoand DataStructure.xlsx
+		..\..\Preparation Docs\CSharpTutorials -Interview Questions.xlsx = ..\..\Preparation Docs\CSharpTutorials -Interview Questions.xlsx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

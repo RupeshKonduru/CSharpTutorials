@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CSharpLogicalPrograms.LinkedList</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,8 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="L1.Stack.cs" />
+    <Compile Include="L2.StackGeneric.cs" />
+    <Compile Include="L3.QueueExample.cs" />
+    <Compile Include="L4.QueueGeneric.cs" />
+    <Compile Include="L5.LinkedList.cs" />
+    <Compile Include="L6.HashTable.cs" />
+    <Compile Include="L7.BinarySearchWithArray.cs" />
+    <Compile Include="L8.BinarySearchTree.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

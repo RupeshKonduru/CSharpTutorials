@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpAlgorithms.BinarySearchTreeInsert</StartupObject>
+    <StartupObject>CSharpAlgorithms.Circularlist</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -88,6 +88,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\5.CSharpDataStructures\5.CSharpDataStructures.csproj">
+      <Project>{8ECF7DC7-A5EB-4462-BC32-5DEAD1E707F4}</Project>
+      <Name>5.CSharpDataStructures</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
