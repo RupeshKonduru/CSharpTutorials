@@ -2,6 +2,7 @@
 
 namespace CsharpDesignPattern
 {
+    //Def: Create object in the factory based on the input 
     //Step1: Create the Product Interface
     public interface ICreditCard
     {
