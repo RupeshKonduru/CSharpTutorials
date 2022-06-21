@@ -46,32 +46,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="10.BinaryTODecimal.cs" />
-    <Compile Include="4.ArmStrongNumber.cs" />
-    <Compile Include="2.Fibonacci.cs" />
-    <Compile Include="6.Polindrome.cs" />
-    <Compile Include="3.PrimeNumber.cs" />
-    <Compile Include="9.DecimalTOBinary.cs" />
-    <Compile Include="7.Factorial.cs" />
-    <Compile Include="11.CharacterOccurance.cs" />
-    <Compile Include="14.PossibleSubString.cs" />
-    <Compile Include="18.ConvertOneDimenToTwoDimensArray.cs" />
-    <Compile Include="19.ConvertTwoDimenToOneDimensArray.cs" />
-    <Compile Include="20.FindAngleInClockHoursAndMinuteHand.cs" />
-    <Compile Include="16.LeftCircularRotationArray.cs" />
-    <Compile Include="23.NestedSwitch.cs" />
-    <Compile Include="21.OverloadBinaryOperator.cs" />
-    <Compile Include="22.OverLoadUnaryOperator.cs" />
-    <Compile Include="24.PrintWeekDay.cs" />
+    <Compile Include="BinaryTODecimal.cs" />
+    <Compile Include="ArmStrongNumber.cs" />
+    <Compile Include="Fibonacci.cs" />
+    <Compile Include="Polindrome.cs" />
+    <Compile Include="PrimeNumber.cs" />
+    <Compile Include="DecimalTOBinary.cs" />
+    <Compile Include="Factorial.cs" />
+    <Compile Include="CharacterOccurance.cs" />
+    <Compile Include="PossibleSubString.cs" />
+    <Compile Include="ConvertOneDimenToTwoDimensArray.cs" />
+    <Compile Include="ConvertTwoDimenToOneDimensArray.cs" />
+    <Compile Include="FindAngleInClockHoursAndMinuteHand.cs" />
+    <Compile Include="LeftCircularRotationArray.cs" />
+    <Compile Include="NestedSwitch.cs" />
+    <Compile Include="OverloadBinaryOperator.cs" />
+    <Compile Include="OverLoadUnaryOperator.cs" />
+    <Compile Include="PrintWeekDay.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="1.ReverseNumber.cs" />
-    <Compile Include="5.SwappingNumbers.cs" />
-    <Compile Include="8.SumOfDigits.cs" />
-    <Compile Include="12.ReverseString.cs" />
-    <Compile Include="13.RemoveDuplicateCharacterFromString.cs" />
-    <Compile Include="15.ReverseEachWordInSentence.cs" />
-    <Compile Include="17.RightCircularROtationInArray.cs" />
+    <Compile Include="ReverseNumber.cs" />
+    <Compile Include="SwappingNumbers.cs" />
+    <Compile Include="SumOfDigits.cs" />
+    <Compile Include="ReverseString.cs" />
+    <Compile Include="RemoveDuplicateCharacterFromString.cs" />
+    <Compile Include="ReverseEachWordInSentence.cs" />
+    <Compile Include="RightCircularROtationInArray.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
